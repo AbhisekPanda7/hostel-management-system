@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.kiit-logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+nav {
+    z-index: 30;
+
+    display: flex;
+    padding: 8px 8px;
+    align-items: center;
+    /* box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1); */
+    text-align: right;
+    opacity: 0.5;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    top: 0px;
+    /* background: transparent; */
+    background-color: black;
+}
+
+.main--content {
+    color: white;
+
+}
+
+.header-content {
+    text-align: center;
+    /* padding-top: 12px; */
+
+
+}
+
+.Img {
+    position: absolute;
+    backdrop-filter: contrast(0.9);
+    z-index: -20;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(5px);
+    
+    /* -webkit-filter: blur(8px); */
+    
+
+}
+
+.header-con {
+    margin-top: 30px;
+
+    /* color: rgb(0, 255, 187);
+    outline: 5px dotted green; */
+    color: rgb(23, 197, 90);
+    font-size: 50px;
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+
+}
+
+.main--head {
+    cursor: pointer;
+    
+}
+.main--head:hover{
+    font-weight: bold;
+    color: green;
+}
+
+.log-in {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.log-in button {
+    color: green;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.log-in button:hover {
+
+    background-color: rgb(89, 200, 89);
+    font-weight: bold;
+    color: white
+}
+footer{
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+.f{
+    text-align: center;
+    color:white;
+}
